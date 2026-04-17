@@ -1,0 +1,75 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background: #e6aa05;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero {
+    background: #ffc400;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+.hero-text {
+    width: 50%;
+    color: white;
+    padding: 100px;
+}
+.hero-image img {
+    width: 400px;
+
+}
+.btn-primary {
+    background: #00bcd4;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+}
+
+.about {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+.about-image img {
+    width: 300px;
+}
+
+.services {
+    background: #f7b500;
+    text-align: center;
+    padding: 60px;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.card {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+}
+.card img {
+    width: 100%;
+}
